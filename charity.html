@@ -14,7 +14,8 @@
 
 <body>
     <div class="heading">
-        <h1 id="heading-headi" style="font-size: 33px;">ஒராட்டுக்குப்பை மாற்றுத்திறனாளிகளின் 100 வீடுகள் ட்ரீம் டவுன்ஷிப் </h1>
+        <h1 id="heading-headi" style="font-size: 33px;">ஒராட்டுக்குப்பை மாற்றுத்திறனாளிகளின் 100 வீடுகள் ட்ரீம்
+            டவுன்ஷிப் </h1>
         <h1 id="heading-head">Orattukuppai Physically Challengers 100 House Dream Township </h1>
     </div>
     <div class="popup-box">
@@ -43,7 +44,7 @@
                 <div class="popup-five" onclick="redirecttrusties()">
                     <p style="font-size: 23px;">Administrators</p>
                     <p class="tamil">நிர்வாகிகள்</p>
-                </div>                
+                </div>
                 <div class="popup-first" onclick="redirectbeneficiaries()">
                     <p style="font-size: 23px;">Beneficiaries</p>
                     <p class="tamil">பயனாளிகள்</p>
@@ -56,7 +57,7 @@
                     <p style="font-size: 23px;">Gallery</p>
                     <p class="tamil">கேலரி </p>
                 </div>
-                
+
             </div>
             <div class="menubar">
                 <i class="fa-solid fa-bars" style="color: white;"></i>
@@ -108,62 +109,57 @@
                     <p style="font-size: 23px;" class="e">Gallery</p>
                     <p class="tamil">கேலரி</p>
                 </div>
-                
+
             </div>
         </div>
     </div>
 
-        
+
 
     <script>
-        function redirectbank()
-{
-    location.href = "bank.html"
-}
-function redirectgovernment()
-{
-    location.href = "government.html"
-}
-function redirectbeneficiaries()
-{
-    location.href = "beneficiaries.html"
-}
-function redirectbuilder()
-{
-    location.href = "builder.html"
-}
-function redirectpanchayat()
-{
-    location.href = "panchayat.html"
-}
-function redirecttrusties()
-{
-    location.href = "trusties.html"
-}
-function redirectgallery()
-{
-    location.href = "gallery.html"
-}
-function redirectcharity()
-{
-    location.href = "charity.html"
-}
-var menubar = document.querySelector(".menubar")
+        function redirectindex() {
+            location.href = "index.html"
+        }
+        function redirectbank() {
+            location.href = "bank.html"
+        }
+        function redirectgovernment() {
+            location.href = "government.html"
+        }
+        function redirectbeneficiaries() {
+            location.href = "beneficiaries.html"
+        }
+        function redirectbuilder() {
+            location.href = "builder.html"
+        }
+        function redirectpanchayat() {
+            location.href = "panchayat.html"
+        }
+        function redirecttrusties() {
+            location.href = "trusties.html"
+        }
+        function redirectgallery() {
+            location.href = "gallery.html"
+        }
+        function redirectcharity() {
+            location.href = "charity.html"
+        }
+        var menubar = document.querySelector(".menubar")
         var sidenav = document.querySelector(".side-navbar")
-        menubar.addEventListener("click",function()
-        {
+        menubar.addEventListener("click", function () {
             sidenav.style.transitionDuration = `500ms`;
             sidenav.style.left = "0"
         })
 
         var xmark = document.querySelector(".xmark")
-        xmark.addEventListener("click",function () {
+        xmark.addEventListener("click", function () {
             sidenav.style.transitionDuration = `500ms`
             sidenav.style.left = "-60%"
         })
     </script>
-    
 
-    
+
+
 </body>
-</html> 
+
+</html>
